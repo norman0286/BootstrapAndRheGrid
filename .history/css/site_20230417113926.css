@@ -1,0 +1,16 @@
+main>.container {
+    padding: 60px 15px 0;   
+  }
+
+.homeBG {
+    width: 100%;
+    background: url(/img/colorful-2174045_1280.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.homeText{
+    
+}

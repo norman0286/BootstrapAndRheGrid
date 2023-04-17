@@ -1,0 +1,15 @@
+main>.container {
+    padding: 60px 15px 0;   
+  }
+
+.homeBG {
+    width: 100%;
+}
+
+
+  .sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
