@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>Bootstrap and The Grids: Home</title>
+    <title>Bootstrap and The Grids: Grid Four</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -16,11 +16,10 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://use.typekit.net/mhj5wdi.css" />
     <link rel="stylesheet" href="css/site.css" />
   </head>
 
-  <body class="d-flex flex-column h-100 homeBG">
+  <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">Bootstrap Grids</a>
@@ -52,7 +51,9 @@
               <a class="nav-link" href="/Grid3.html">Grid Three</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Grid4.html">Grid Four</a>
+              <a class="nav-link active" aria-current="page" href="/Grid4.html"
+                >Grid Four</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid5.html">Grid Five</a>
@@ -75,9 +76,18 @@
     </nav>
 
     <main class="flex-shrink-0">
-      <div class="container text-center mt-5">
-        <h1 class="display-1 homeText">Bong's Page Testing Link</h1>
-        <h3 class="text-white">An Exercise in Bootstrap grid and layouts</h3>
+      <div class="container h-100 minHeight">
+        <div class="row h-100 rorw-cols-1 row-cols-md-3 gy-1">
+          <div class="col">
+            <div class="bg-secondary text-light h-100 p-2">COL ONE</div>
+          </div>
+          <div class="col">
+            <div class="bg-dark text-light h-100 p-2">COL TWO</div>
+          </div>
+          <div class="col">
+            <div class="bg-secondary text-light h-100 p-2">COL THREE</div>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">

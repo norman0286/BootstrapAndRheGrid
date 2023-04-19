@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>Bootstrap and The Grids: Grid Five</title>
+    <title>Bootstrap and The Grids: Grid Three</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -37,9 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="/index.html">home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid1.html">Grid One</a>
@@ -48,15 +46,15 @@
               <a class="nav-link" href="/Grid2.html">Grid Two</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Grid3.html">Grid Three</a>
+              <a class="nav-link active" aria-current="page" href="/Grid3.html"
+                >Grid Three</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid4.html">Grid Four</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/Grid5.html"
-                >Grid Five</a
-              >
+              <a class="nav-link" href="/Grid5.html">Grid Five</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid6.html">Grid Six</a>
@@ -77,15 +75,50 @@
 
     <main class="flex-shrink-0">
       <div class="container h-100 minHeight">
-        <div class="row h-100 row-cols-1 row-cols-md-3 gy-1">
-          <div class="col col-md-3">
-            <div class="bg-secondary text-light h-100">COLUMN ONE</div>
+        <div class="row h-100">
+          <!-- LEFT COLUMN -->
+          <div class="col-7">
+            <div class="bg-secondary text-light p-2 h-100">
+              <p>
+                Lorem ipsum dolor sit amet. Nam autem consequuntur et quae nulla
+                qui praesentium aperiam sed odit vitae ea similique suscipit.
+                Non suscipit tempora nam magnam cupiditate ut consequatur
+                placeat ad nostrum reiciendis qui amet eaque ut fuga quae. Eos
+                repellat omnis quo eligendi similique sit sunt velit. Et velit
+                tempore ut enim officia aut debitis ipsam qui quam illo et nobis
+                modi et dolore consequatur sed nostrum voluptates.
+              </p>
+            </div>
           </div>
-          <div class="col col-md-6">
-            <div class="bg-dark text-light h-100">COLUMN TWO</div>
-          </div>
-          <div class="col col-md-3">
-            <div class="bg-secondary text-light h-100">COLUMN THREE</div>
+          <!-- RIGHT COLUMN -->
+          <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+            <!-- right top column -->
+            <div class="bg-dark text-white h-50 p-2">
+              <p>
+                Lorem ipsum dolor sit amet. Nam autem consequuntur et quae nulla
+                qui praesentium aperiam sed odit vitae ea similique suscipit.
+                Non suscipit tempora nam magnam cupiditate ut consequatur
+                placeat ad nostrum reiciendis qui amet eaque ut fuga quae. Eos
+                repellat omnis quo eligendi similique sit sunt velit. Et velit
+                tempore ut enim officia aut debitis ipsam qui quam illo et nobis
+                modi et dolore consequatur sed nostrum voluptates.
+              </p>
+            </div>
+            <!-- right bottom-column -->
+            <div class="bg-dark text-white h-50 mt-2 p-2">
+              <p>
+                Lorem ipsum dolor sit amet. Nam autem consequuntur et quae nulla
+                qui praesentium aperiam sed odit vitae ea similique suscipit.
+                Non suscipit tempora nam magnam cupiditate ut consequatur
+                placeat ad nostrum reiciendis qui amet eaque ut fuga quae. Eos
+                repellat omnis quo eligendi similique sit sunt velit. Et velit
+                tempore ut enim officia aut debitis ipsam qui quam illo et nobis
+                modi et dolore consequatur sed nostrum voluptates.
+              </p>
+            </div>
+            <div class="bg-dark text-light border border-top p-2">
+              <button class="btn btn-light" type="button">Read More</button>
+            </div>
           </div>
         </div>
       </div>
@@ -93,7 +126,7 @@
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
       <div class="container-fluid text-center">
         <span class="text-white"
-          >Bootstrap And The Grids by Norman R Leonor</span
+          >Bootstrap And The Grids by Norman R Leonor - Grid Three</span
         >
       </div>
     </footer>
